@@ -1,0 +1,22 @@
+.FilterOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.1em;
+  margin: 2px;
+}
+
+.FilterOptions__option input {
+  margin: 5px 10px 10px 5px;
+  height: 20px;
+}
+
+.FilterOptions__option input[type='radio'] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+ }
+
+.FilterOptions__option label {
+  color: #7D7D7D;
+}
